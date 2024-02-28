@@ -1,12 +1,24 @@
-.user-component {
-  display: flex;
-}
-
+.user-component,
 .user-component__column:first-child {
   display: flex;
+  align-items: center;
 }
 
 .user-component__avatar {
   width: 70px;
   height: 70px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.user-component__title {
+  font-weight: 450;
+  font-size: 18px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.7);
 }
