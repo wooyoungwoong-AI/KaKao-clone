@@ -6,6 +6,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* Screens */
 @import "screens/login-form.css";
@@ -16,5 +17,4 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   font-style: normal;
-  height: 1000vh;
 }
